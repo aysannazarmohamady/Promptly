@@ -1,45 +1,6 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# API Keys
-.env
-*.key
-config.json
-secrets.json
-
-# Dataset (if large)
-*.csv
-data/
-datasets/
-
-# Gradio
-gradio_cached_examples/
-flagged/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-logs/
-
-# Distribution
-dist/
-build/
-*.egg-info/
+gradio>=4.0.0
+pandas>=1.5.0
+numpy>=1.24.0
+google-generativeai>=0.3.0
+textstat>=0.7.0
+python-dotenv>=1.0.0
